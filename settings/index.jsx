@@ -1,81 +1,16 @@
 import React from 'react';
-
-const DEFAULT_COLORS = [
-    {
-        color: '#FF6633',
-    },
-    {
-        color: '#FF0033',
-    },
-    {
-        color: '#212227',
-    },
-    {
-        color: '#2274A5',
-    },
-    {
-        color: '#65179c',
-    },
-    {
-        color: '#6bdf12',
-    },
-    {
-        color: '#E8C547',
-    },
-    {
-        color: '#5C80BC',
-    },
-    {
-        color: '#FF579F',
-    },
-    {
-        color: '#51A3A3',
-    },
-];
-
-const ACCENT_COLORS = [
-    {
-        color: '#A4C400',
-    },
-    {
-        color: '#60A917',
-    },
-    {
-        color: '#1BA1E2',
-    },
-    {
-        color: '#8693AB',
-    },
-    {
-        color: '#00ABA9',
-    },
-    {
-        color: '#A20025',
-    },
-    {
-        color: '#CDD1C4',
-    },
-    {
-        color: '#FA6800',
-    },
-    {
-        color: '#647687',
-    },
-    {
-        color: '#76608A',
-    },
-];
+import { THEME_COLORS } from './themeColors';
 
 const colorConfig = [
     {
         key: 'PrimaryColor',
         label: 'Primary Color',
-        colors: DEFAULT_COLORS,
+        colors: THEME_COLORS,
     },
     {
         key: 'SecondaryColor',
         label: 'Secondary Color',
-        colors: ACCENT_COLORS,
+        colors: THEME_COLORS,
     }
 ];
 
