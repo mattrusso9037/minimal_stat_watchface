@@ -1,0 +1,67 @@
+#bck_img {
+  height: 100%;
+  width: 100%;
+}
+
+#time_container {
+  font-size: 80;
+  font-family: System-Bold;
+  text-length: 32;
+  text-anchor: middle;
+  x: 50%;
+  y: 50%;
+  fill: white;
+  opacity: .9;
+}
+
+#date_container {
+  font-size: 20;
+  font-family: System-Bold;
+  text-length: 32;
+  text-anchor: middle;
+  x: 50%;
+  y: 30;
+  fill: white;
+}
+
+/*Metric Container*/
+#metric_container > g {
+  transform: 'translate(25, 100%-100)';
+}
+
+#metric_container > g > rect {
+  fill: black;
+  opacity: .4;
+  width: 160;
+  height: 70;
+}
+
+#metric_container > g > .metric_inner {
+  fill: orange;
+  width: 100%;
+  transform: 'translate(10, -5)';
+}
+
+#metric_container > g > .metric_inner > #metric_img {
+  width: 40;
+  height: 40;
+}
+
+#metric_container > g > .metric_inner > #active_stat_group {
+  /*Width of icon = 40*/
+  transform: 'translate(40 + 5, 10)';
+}
+
+#metric_container > g > .metric_inner > #active_stat_group > text {
+  text-length: 15;
+  font-size: 24;
+}
+
+#metric_container > g > .metric_inner > #active_stat_group > #metric_label {
+  font-size: 16;
+  y: 60;
+}
+
+#metric_container > g > .metric_inner > #active_stat_group > #metric_value {
+  font-size: 36;
+}

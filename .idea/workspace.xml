@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0727f1f5-bc15-4afb-ac94-9075bc5328ad" name="Default Changelist" comment="Initial Commit" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="1x6TAZ2yC0IxKNQBo2nnusdHWl7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0727f1f5-bc15-4afb-ac94-9075bc5328ad" name="Default Changelist" comment="" />
+      <created>1629674395867</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1629674395867</updated>
+      <workItem from="1629674397105" duration="1707000" />
+      <workItem from="1629676157183" duration="1781000" />
+      <workItem from="1629677968039" duration="1805000" />
+      <workItem from="1629679801386" duration="1780000" />
+      <workItem from="1629681610106" duration="1323000" />
+      <workItem from="1630157122332" duration="1895000" />
+      <workItem from="1630159052202" duration="1757000" />
+      <workItem from="1630161478653" duration="1840000" />
+      <workItem from="1630179594163" duration="1771000" />
+      <workItem from="1630181396783" duration="685000" />
+      <workItem from="1630194689211" duration="1527000" />
+      <workItem from="1630242774384" duration="1778000" />
+      <workItem from="1630244584667" duration="1920000" />
+      <workItem from="1630246688357" duration="926000" />
+      <workItem from="1630774270777" duration="1153000" />
+      <workItem from="1630799710082" duration="1322000" />
+      <workItem from="1630801514754" duration="1384000" />
+      <workItem from="1630864959377" duration="6000" />
+      <workItem from="1630865217914" duration="6000" />
+      <workItem from="1630865502557" duration="51000" />
+      <workItem from="1630865565851" duration="49000" />
+      <workItem from="1630865627482" duration="30000" />
+      <workItem from="1630865668372" duration="26695000" />
+      <workItem from="1631118309104" duration="2608000" />
+      <workItem from="1631578895978" duration="2605000" />
+      <workItem from="1631894891037" duration="1943000" />
+    </task>
+    <task id="LOCAL-00001" summary="Initial Commit">
+      <created>1631896651264</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1631896651264</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
+  </component>
+</project>

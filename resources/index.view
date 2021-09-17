@@ -1,0 +1,17 @@
+<svg class="background">
+  <image id='bck_img' x='0' y='0' />
+  <text id='time_container' />
+  <text id='date_container' />
+  <g id='metric_container' pointer-events='all'>
+    <g>
+      <rect x='0' y='0' rx='20' ry='20' />
+      <g class='metric_inner'>
+        <image id='metric_img' x="0" y="20" />
+        <g id='active_stat_group' y="20">
+          <text id='metric_value' x='0' y='36' fill='white'></text>
+          <text id='metric_label' x='0' fill='white'></text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
