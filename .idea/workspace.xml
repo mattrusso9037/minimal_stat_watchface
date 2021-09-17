@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0727f1f5-bc15-4afb-ac94-9075bc5328ad" name="Default Changelist" comment="Initial Commit" />
+    <list default="true" id="0727f1f5-bc15-4afb-ac94-9075bc5328ad" name="Default Changelist" comment="Enable git integration in IDE">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/watch_screenshot_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +18,16 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitRewordedCommitMessages">
+    <option name="commitMessagesMapping">
+      <RewordedCommitMessageMapping>
+        <option name="originalMessage" value="Enable git integration in IDE" />
+        <option name="rewordedMessage" value="Initial code commit." />
+      </RewordedCommitMessageMapping>
+    </option>
+    <option name="currentCommit" value="1" />
+    <option name="onto" value="3c987162bc9ea618827065fb152cc285b4dd9438" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -35,10 +49,16 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Flutter/conquer_money" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="MTConfigurable" />
     <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Matt\Projects\Watch Faces\Fitbit\background_image\" />
+      <recent name="C:\Users\Matt\Projects\Watch Faces\Fitbit\background_image\assets" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -73,7 +93,7 @@
       <workItem from="1630865668372" duration="26695000" />
       <workItem from="1631118309104" duration="2608000" />
       <workItem from="1631578895978" duration="2605000" />
-      <workItem from="1631894891037" duration="1943000" />
+      <workItem from="1631894891037" duration="2993000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1631896651264</created>
@@ -82,7 +102,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631896651264</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Enable git integration in IDE">
+      <created>1631897480075</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1631897480075</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,7 +126,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="master" />
+                        <option value="main" />
                       </list>
                     </value>
                   </entry>
@@ -113,6 +140,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
+    <MESSAGE value="Enable git integration in IDE" />
+    <option name="LAST_COMMIT_MESSAGE" value="Enable git integration in IDE" />
   </component>
 </project>
