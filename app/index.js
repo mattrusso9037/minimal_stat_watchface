@@ -1,11 +1,12 @@
 import {MetricController} from './Metric/MetricController';
 import {ClockController} from './Clock/ClockController';
-import {METRIC_UPDATE_INTERVAL} from '../common/utils';
+import {HEART_RATE_INTERVAL} from '../common/utils';
 import {CanvasController} from './Metric/CanvasController';
 import {peerSocket} from 'messaging';
-import { inbox } from 'file-transfer';
+import {inbox} from 'file-transfer';
 import {SettingsController} from '../common/SettingsController';
-import { display } from 'display';
+import {display} from 'display';
+import {MetricId} from './Metric/metricConfig';
 
 const Metric = new MetricController();
 const Clock = new ClockController();
@@ -15,12 +16,14 @@ let tickInterval;
 
 initSettings();
 Clock.onStart();
-initInterval();
+initInterval(HEART_RATE_INTERVAL);
 
-function initInterval () {
+function initInterval(timeInMs) {
     tickInterval = setInterval(() => {
-        Metric.draw();
-    }, METRIC_UPDATE_INTERVAL);
+        if (display.on) {
+            Metric.draw();
+        }
+    }, timeInMs);
 }
 
 peerSocket.onmessage = (event) => {
@@ -57,18 +60,21 @@ inbox.onnewfile = () => {
 };
 
 function shouldStartHeartrate() {
-    return display.on && Metric.getActiveMetric().id === Metric.Bpm;
+    return display.on && Metric.getActiveMetric().id === MetricId.Bpm;
 }
 
 /**
  * Display On/Off
  */
 display.addEventListener('change', () => {
-    if (display.on) {
+    if (shouldStartHeartrate()) {
         Metric.heartRate.onStart();
-        initInterval();
+        initInterval(HEART_RATE_INTERVAL);
     } else {
         Metric.heartRate.onStop();
+    }
+
+    if (!display.on) {
         clearInterval(tickInterval);
     }
 });

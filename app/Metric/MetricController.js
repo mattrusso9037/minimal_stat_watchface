@@ -1,4 +1,4 @@
-import {metricConfig, Metric} from './metricConfig';
+import {metricConfig, MetricId} from './metricConfig';
 import {HeartRate} from './HeartRate';
 import {CanvasController} from './CanvasController';
 import {Goal} from './Goal';
@@ -39,8 +39,18 @@ export class MetricController {
             // this.sensors[this.activeIndex].onStop();
             this.activeIndex = nextIndex;
         }
-        // TODO: Figure out onStop() to avoid memory leak;
+
+        if (this.heartRateIsActive()) {
+            this.heartRate.onStart();
+        } else {
+            this.heartRate.onStop();
+        }
+
         this.draw();
+    }
+
+    heartRateIsActive() {
+        return metricConfig[this.activeIndex].id === MetricId.Bpm;
     }
 
     getActiveMetric() {
@@ -53,15 +63,15 @@ export class MetricController {
      */
     getActiveStatValue() {
         switch (this.getActiveMetric().id) {
-            case Metric.Bpm:
+            case MetricId.Bpm:
                 return this.heartRate.getLatestBpm();
-            case Metric.Steps:
+            case MetricId.Steps:
                 return this.goal.getSteps();
-            case Metric.Calories:
+            case MetricId.Calories:
                 return this.goal.getCalories();
-            case Metric.Distance:
+            case MetricId.Distance:
                 return this.goal.getDistanceByMiles();
-            case Metric.ZoneMinutes:
+            case MetricId.ZoneMinutes:
                 return this.goal.getZoneMinutes();
             default:
                 return 'Unsupported Stat';

@@ -8,6 +8,7 @@ export class HeartRate extends AbstractMetric {
         this.currentBpm = null;
         this.sensor = new HeartRateSensor({frequency: 1});
         this.initSensor();
+        this.isActive = true;
     }
 
     initSensor() {
@@ -19,12 +20,16 @@ export class HeartRate extends AbstractMetric {
     onStart() {
         this.sensor.addEventListener('reading', this.onRead);
         this.sensor.start();
+        this.isActive = true;
     }
 
     onStop() {
-        this.currentBpm = null;
-        this.sensor.stop();
-        this.sensor.removeEventListener('reading', this.onRead);
+        if (this.isActive) {
+            this.currentBpm = null;
+            this.sensor.stop();
+            this.sensor.removeEventListener('reading', this.onRead);
+            this.isActive = false;
+        }
     }
 
     /**

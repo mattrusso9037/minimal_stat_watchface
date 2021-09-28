@@ -1,6 +1,6 @@
 import { me as appbit } from "appbit";
 
-export const METRIC_UPDATE_INTERVAL = 1000;
+export const HEART_RATE_INTERVAL = 3000;
 // Add zero in front of numbers < 10
 export function zeroPad(i) {
   if (i < 10) {
